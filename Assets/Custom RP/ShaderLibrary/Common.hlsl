@@ -8,6 +8,7 @@
 // UnityInput.hlsl里声明的一些矩阵跟这个函数里面使用的不是一个名字
 // 所以要加相关的别名（宏定义）
 
+// 右边这五个矩阵都是在"UnityInput.hlsl"里声明的矩阵
 // W矩阵
 #define UNITY_MATRIX_M unity_ObjectToWorld
 // W逆矩阵
